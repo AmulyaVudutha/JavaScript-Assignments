@@ -78,3 +78,18 @@ PART-3:
 Task-1:
 A closure is a function that "remembers" the variables from the scope in which it was created—even after that scope has finished executing.
 -Count is defined in setUpcounter and increment,decreadrement form closures and they can able to access the count variable even after the function returns.
+
+PART-4:
+
+Task-1:
+-If fewer arguments are passed than the number of declared parameters, the remaining parameters get the value undefined.
+-If more arguments are passed than the number of declared parameters, the extra arguments are simply ignored, unless handled via the arguments object or the rest parameter.
+
+Task-2:
+-The rest parameter allows a function to accept an indefinite number of arguments as an array.
+Syntax:
+function example(...args) {
+  console.log(args); // args is an array
+}
+
+
